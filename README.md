@@ -1,14 +1,5 @@
-# Mekanism Culling
-**This fix applies for 1.12.2 only! Don't even try to use it on other versions!** \
-In short, this makes rendering of Mekanism Generator multiblocks faster, therefore increases FPS. \
-You will get less lag when looking at big multiblocks, like 11x18x11 (Industrial Turbine, etc.) \
-This mod requires [MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter) version `7.1` to modify Mekanism. \
-Only Mekanism `9.8.3.390` is supported, don't ask why.
-
-## Before
-Invisible faces are rendered, slow
-![slow](https://raw.githubusercontent.com/TheAirBlow/MekanismCulling/main/images/slow.gif)
-
-## After
-Invisible faces are culled, fast
-![fast](https://raw.githubusercontent.com/TheAirBlow/MekanismCulling/main/images/fast.gif)
+# TekTopia
+In short, this disabled all of TekTopia's debug logging, which can get out of hand on servers. \
+No more `Removing structure HOME`, etc. as `debugOut` was completely patched out to do nothing. \
+This mod requires [MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter) version `7.1` to modify TekTopia. \
+Only TekTopia `1.1.0` is supported, don't ask why.

@@ -67,6 +67,7 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
     implementation fg.deobf("zone.rong:mixinbooter:7.0")
     implementation fg.deobf("curse.maven:tektopia-333029:2763046")
+    implementation fg.deobf("curse.maven:craftstudio-api-268704:2661859")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 

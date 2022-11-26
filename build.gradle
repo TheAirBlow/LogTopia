@@ -18,7 +18,7 @@ group = 'ml.theairblow'
 version = '1.0.0'
 
 java {
-    archivesBaseName = 'culling'
+    archivesBaseName = 'logtopia'
     toolchain.languageVersion = JavaLanguageVersion.of(8)
 }
 
@@ -66,16 +66,14 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
     implementation fg.deobf("zone.rong:mixinbooter:7.0")
-    implementation fg.deobf("curse.maven:mekanism-268560:2835175")
-    implementation fg.deobf("curse.maven:mekanism-tools-268567:2835178")
-    implementation fg.deobf("curse.maven:mekanism-generators-268566:2835177")
+    implementation fg.deobf("curse.maven:tektopia-333029:2763046")
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "mekanismculling",
+                "Specification-Title"     : "logtopia",
                 "Specification-Vendor"    : "TheAirBlow",
                 "Specification-Version"   : "1",
                 "Implementation-Title"    : project.name,

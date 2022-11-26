@@ -2,10 +2,9 @@
   "minVersion": "0.8.2",
   "compatibilityLevel": "JAVA_8",
   "package": "ml.theairblow.culling",
-  "refmap": "mixins.refmap.json",
+  "refmap": "mixin.refmap.json",
   "mixins": [
-    "MixinBlockGenerator",
-    "MixinBlockReactor"
+    "MixinVillage"
   ],
   "client": [],
   "server": []
